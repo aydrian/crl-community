@@ -11,13 +11,13 @@ Join the [CockroachDB Community Slack Workspace](https://www.cockroachlabs.com/j
 
 Request URL: https://crl-community.netlify.app/webhooks/slack-events
 
-- `team_join` - Sends a Welcome Message to new users via Direct Message.
+- `team_join` - Sends a [Welcome Message](/netlify/lib/slack-welcome.js) to new users via Direct Message.
 
 ### Slash Commands
 
 Request URL: `https://crl-community.netlify.app/webhooks/slack-commands`
 
-- `/show-welcome` - Sends Welcome Message to existing users via Direct Message.
+- `/show-welcome` - Sends [Welcome Message](/netlify/lib/slack-welcome.js) to existing users via Direct Message.
 
 ### Environment Variables
 
