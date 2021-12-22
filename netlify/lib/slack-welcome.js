@@ -39,7 +39,7 @@ export default function getWelcomeBlocks(user) {
       type: "section",
       text: {
         type: "mrkdwn",
-        text: `:cockroachdb: #cockroachdb\nThis channel is our main channel for general discussions for CockroachDB users. Feel free to ask all your technical questions here! (Note: if you have a specific question about #multi-region, #kubernetes, #cockroach-cloud we may suggest a more targeted channel to post in.)`
+        text: `:cockroachdb: #cockroachdb\nThis channel is our main channel for general discussions for CockroachDB users. Feel free to ask all your technical questions here! (Note: if you have a specific question about #multi-region, #kubernetes, #cockroachdb-cloud we may suggest a more targeted channel to post in.)`
       }
     },
     {

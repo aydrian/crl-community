@@ -11,5 +11,5 @@ status = 200
 
 [[redirects]]
 from = "/webhooks/slack-commands"
-to = "/.netlify/functions/slack-slash-command"
+to = "/.netlify/functions/slack-commands"
 status = 200
