@@ -3,3 +3,13 @@ publish = "public"
 
 [functions]
 node_bundler = "esbuild"
+
+[[redirects]]
+from = "/webhooks/slack-events"
+to = "/.netlify/functions/slack-events"
+status = 200
+
+[[redirects]]
+from = "/webhooks/slack-commands"
+to = "/.netlify/functions/slack-slash-command"
+status = 200
