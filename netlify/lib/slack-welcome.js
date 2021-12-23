@@ -15,7 +15,14 @@ export default function getWelcomeBlocks(user) {
       type: "section",
       text: {
         type: "mrkdwn",
-        text: "Welcome to the CockroachDB Slack community. Whether you are a first-time user looking to learn, or an early adopter or longtime contributor, you’ll find lots of great channels and community members to engage with here!\nBefore you get started, please review our <https://www.cockroachlabs.com/slack-code-of-conduct|Code of Conduct>."
+        text: "Welcome to the CockroachDB Slack community. Whether you are a first-time user looking to learn, or an early adopter or longtime contributor, you’ll find lots of great channels and community members to engage with here!"
+      }
+    },
+    {
+      type: "section",
+      text: {
+        type: "mrkdwn",
+        text: ":scales: *Before you get started, please review our <https://www.cockroachlabs.com/slack-code-of-conduct|Code of Conduct>.*"
       }
     },
     {
@@ -138,6 +145,15 @@ export default function getWelcomeBlocks(user) {
         type: "mrkdwn",
         text: `Cheers!\n${LISA}, Developer Relations`
       }
+    },
+    {
+      type: "context",
+      elements: [
+        {
+          type: "mrkdwn",
+          text: "_Last edited: December 23, 2021_"
+        }
+      ]
     }
   ];
 }
