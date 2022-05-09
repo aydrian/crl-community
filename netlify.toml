@@ -14,6 +14,11 @@ from = "/webhooks/slack-commands"
 to = "/.netlify/functions/slack-commands"
 status = 200
 
+[[redirects]]
+from = "/badge"
+to = "/.netlify/functions/badge"
+status = 200
+
 [template.environment]
 SLACK_BOT_TOKEN = "Slack App Bot Token"
 SLACK_SIGNING_SECRET = "Slack App Signing Secret"

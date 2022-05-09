@@ -23,3 +23,5 @@ Request URL: `https://crl-community.netlify.app/webhooks/slack-commands`
 
 - `SLACK_BOT_TOKEN` - Slack App Bot Token
 - `SLACK_SIGNING_SECRET` - Slack App Signing Secret
+
+[![CockroachDB Badge](https://crl-community.netlify.app/badge)](https://www.cockroachlabs.com)
