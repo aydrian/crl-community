@@ -12,7 +12,7 @@ async function slackHandler(event, _context) {
   const parsedBody = Object.fromEntries(new URLSearchParams(event.body));
   if (parsedBody.command === "/show-welcome") {
     console.log(`${parsedBody.user_name} requested the welcome message.`);
-    await sendWelcome(parsedBody.user_id, parsedBody.user_name);
+    await sendWelcome(parsedBody.user_id);
   }
 
   return {

@@ -14,7 +14,7 @@ async function slackHandler(event, _context) {
   if (body.type === "url_verification") {
     return {
       statusCode: 200,
-      body: JSON.stringify({ challeng: body.challenge })
+      body: JSON.stringify({ challenge: body.challenge })
     };
   }
   if (body.type === "event_callback") {
