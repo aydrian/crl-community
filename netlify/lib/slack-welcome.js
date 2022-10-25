@@ -12,7 +12,7 @@ export default function getWelcomeBlocks(user) {
       }
     },
     {
-      type: "section",a
+      type: "section",
       text: {
         type: "mrkdwn",
         text: "Welcome to the CockroachDB Slack community. Whether you are a first-time user looking to learn, or an early adopter or longtime contributor, you’ll find lots of great channels and community members to engage with here!"
