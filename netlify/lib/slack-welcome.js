@@ -12,7 +12,7 @@ export default function getWelcomeBlocks(user) {
       }
     },
     {
-      type: "section",
+      type: "section",a
       text: {
         type: "mrkdwn",
         text: "Welcome to the CockroachDB Slack community. Whether you are a first-time user looking to learn, or an early adopter or longtime contributor, you’ll find lots of great channels and community members to engage with here!"
@@ -64,6 +64,13 @@ export default function getWelcomeBlocks(user) {
       }
     },
     {
+        type: "section",
+        text: {
+          type: "mrkdwn",
+          text: `:mortar_board: #cockroach-university\nOur amazing Cockroach University team is always here to help. Post your questions and comments about anything the Education team can help with!`
+        }
+      },
+    {
       type: "divider"
     },
     {
@@ -71,13 +78,6 @@ export default function getWelcomeBlocks(user) {
       text: {
         type: "mrkdwn",
         text: "*Feel free to opt into (or out of) any of the channels in the community.*\nSome that may be of interest are:"
-      }
-    },
-    {
-      type: "section",
-      text: {
-        type: "mrkdwn",
-        text: `:mortar_board: #cockroach-university\nOur amazing Cockroach University team is always here to help. Post your questions and comments about anything the Education team can help with!`
       }
     },
     {
@@ -151,7 +151,7 @@ export default function getWelcomeBlocks(user) {
       elements: [
         {
           type: "mrkdwn",
-          text: "_Last edited: December 23, 2021_"
+          text: "_Last edited: October 25, 2022_"
         }
       ]
     }
